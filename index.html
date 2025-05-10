@@ -94,6 +94,7 @@
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
+      font-size: 18px;
     }
 
     .contact strong {
@@ -101,6 +102,16 @@
       font-size: 20px;
       margin-top: 10px;
       color: #007bff;
+    }
+
+    .contact a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -149,8 +160,28 @@
 
     <div class="contact">
       📍 <strong>Shop Location:</strong> Lalchand Nagar, A/P Kedgaon Station, Tal_Daund, Dist_Pune, 412203<br>
-      📞 <strong>Contact:</strong> +91-7720866868<br>
-      👤 <strong>Proprietor:</strong> Abhijeet Gaikwad
+      📞 <strong>Contact:</strong> <a href="tel:+917720866868">+91-7720866868</a><br>
+      👤 <strong>Proprietor:</strong> Abhijeet Gaikwad<br>
+      📸 <strong>Instagram:</strong> <a href="https://www.instagram.com/swarajya_the_perfect_mens" target="_blank">@swarajya_the_perfect_mens</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Swarajya — The Perfect Men's Store. All rights reserved. <br>
+    Website designed & maintained by <strong>Abhijeet Gaikwad</strong>
+  </footer>
+
+  <script>
+    function showShopInfo() {
+      const info = document.getElementById("shopInfo");
+      info.style.display = "block";
+      info.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+</body>
+</html>
+ target="_blank">@swarajya_the_perfect_mens</a>
     </div>
   </section>
 
