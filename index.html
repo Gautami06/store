@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swarajya — The Perfect Men's Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #212529;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 25px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Shop Info Section */
+    #shopInfo {
+      display: none;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact {
+      margin-top: 40px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #212529;
+      color: white;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Swarajya — The Perfect Men's Store
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Swarajya</h1>
+    <p>Where Style Meets Tradition — Premium Men’s Wear at Affordable Prices</p>
+    <button onclick="showShopInfo()">View Shop & Contact</button>
+  </section>
+
+  <section id="shopInfo">
+    <div class="gallery">
+      <img src="shop1.jpg" alt="Shop Photo 1">
+      <img src="shop2.jpg" alt="Shop Photo 2">
+      <img src="shop3.jpg" alt="Shop Photo 3">
+      <img src="shop4.jpg" alt="Shop Photo 4">
+      <img src="shop5.jpg" alt="Shop Photo 5">
+      <img src="shop6.jpg" alt="Shop Photo 6">
+      <img src="shop7.jpg" alt="Shop Photo 7">
+      <img src="shop18.jpg" alt="Shop Photo 8">
+      <img src="shop.jpg" alt="Shop Photo 9">
+    </div>
+
+    <div class="contact">
+      📞 Contact Number: +91-7720866868
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Swarajya — The Perfect Men's Store. All rights reserved.
+  </footer>
+
+  <script>
+    function showShopInfo() {
+      const info = document.getElementById("shopInfo");
+      info.style.display = "block";
+      info.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+</body>
+</html>
+
